@@ -10,7 +10,9 @@ const operations = {
   divide: (a, b) => {
     try {
       if (b === 0) {
-        throw new Error("Cannot divide by zero!");
+        throw new Error(
+          "Dividing by Zero? Try that again and i'll call the Math-Police!"
+        );
       }
       return a / b;
     } catch (error) {
